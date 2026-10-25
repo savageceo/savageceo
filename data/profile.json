@@ -1,0 +1,66 @@
+{
+  "kind": "user",
+  "login": "savageceo",
+  "hero": "hero-savage-ceo.svg",
+  "brand": "SAVAGE CEO",
+  "tagline": "BUILD · SHIP · COLLECT · REPEAT",
+  "blurb": "A one-founder house of brands — agents carry the work, the work funds the machine.",
+  "duo": [
+    {
+      "name": "THE ARCHITECT",
+      "nameSvg": "name-the-architect.svg",
+      "img": "architect.webp",
+      "alt": "Niko — The Architect",
+      "caption": "PRODUCER · ENGINEER · THE ONE WHO SHIPS"
+    },
+    {
+      "name": "ONYX",
+      "nameSvg": "name-onyx.svg",
+      "img": "onyx.webp",
+      "alt": "Onyx — the Bengal",
+      "caption": "CHIEF QUALITY BENGAL · STUDIO ENFORCER"
+    }
+  ],
+  "rosterTitle": "The roster",
+  "lastCol": "House",
+  "law": [
+    "ONE HOUSE · ONE DESK · ONE AESTHETIC",
+    "MAIN IS SACRED · GATES BEFORE SHIP · MERGE OR DIE"
+  ],
+  "footer": "SAVAGE CEO · THE ARCHITECT · TAMPA BAY, FL",
+  "signature": "THE ARCHITECT",
+  "house": [
+    {
+      "name": "SAVAGE CEO",
+      "login": "savageceo"
+    },
+    {
+      "name": "SAVAGE STUDIO",
+      "login": "SAVAGE-STUDIO-INC"
+    },
+    {
+      "name": "SAVAGE ROSTER",
+      "login": "SAVAGE-ROSTER"
+    },
+    {
+      "name": "SAVAGE SUITE",
+      "login": "SAVAGE-SUITE"
+    },
+    {
+      "name": "SAVAGE CITY",
+      "login": "SAVAGE-CITY"
+    },
+    {
+      "name": "SAVAGE BUNNY",
+      "login": "SAVAGE-BUNNY"
+    },
+    {
+      "name": "SAVAGE CLIENTS",
+      "login": "SAVAGE-CLIENTS"
+    },
+    {
+      "name": "GHOST CROWN",
+      "login": "GHOST-CROWN"
+    }
+  ]
+}

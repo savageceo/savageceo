@@ -1,0 +1,47 @@
+name: Build profile
+
+# Regenerates the profile README from data/ + templates/ on every change.
+# Add a property = edit data/properties.json and push. This does the rest.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/**
+      - templates/**
+      - scripts/**
+      - assets/**
+      - .github/workflows/profile.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Render profile
+        run: node scripts/build-profile.mjs
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore: rebuild profile [skip ci]"
+            git push
+          else
+            echo "profile already up to date"
+          fi

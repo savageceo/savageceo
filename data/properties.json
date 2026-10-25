@@ -1,0 +1,199 @@
+{
+  "_comment": "SOURCE OF TRUTH for the roster. Add a property = add one object to items[], then push (the Action rebuilds). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null).",
+  "statuses": {
+    "live": {
+      "dot": "🟢",
+      "label": "Live"
+    },
+    "building": {
+      "dot": "🟡",
+      "label": "Building"
+    },
+    "soon": {
+      "dot": "🔵",
+      "label": "Soon"
+    },
+    "private": {
+      "dot": "🔒",
+      "label": "Private"
+    }
+  },
+  "items": [
+    {
+      "name": "SAVAGE CEO",
+      "domain": "savage.ceo",
+      "url": "https://www.savage.ceo",
+      "tag": "The desk",
+      "status": "live",
+      "src": {
+        "label": "ROSTER",
+        "url": "https://github.com/SAVAGE-ROSTER"
+      }
+    },
+    {
+      "name": "Savage Studio",
+      "domain": "savagestud.io",
+      "url": "https://savagestud.io",
+      "tag": "Talent house",
+      "status": "live",
+      "src": {
+        "label": "STUDIO",
+        "url": "https://github.com/SAVAGE-STUDIO-INC"
+      }
+    },
+    {
+      "name": "Savage Pay",
+      "domain": "pay.savagestud.io",
+      "url": "https://pay.savagestud.io",
+      "tag": "Payments",
+      "status": "live",
+      "src": {
+        "label": "STUDIO",
+        "url": "https://github.com/SAVAGE-STUDIO-INC"
+      }
+    },
+    {
+      "name": "The Bay Lens",
+      "domain": "thebaylens.com",
+      "url": "https://www.thebaylens.com",
+      "tag": "Photography",
+      "status": "live",
+      "src": {
+        "label": "STUDIO",
+        "url": "https://github.com/SAVAGE-STUDIO-INC"
+      }
+    },
+    {
+      "name": "Spanish Bunny",
+      "domain": "spanishbunny.com",
+      "url": "https://spanishbunny.com",
+      "tag": "Talent",
+      "status": "live",
+      "src": {
+        "label": "ROSTER",
+        "url": "https://github.com/SAVAGE-ROSTER"
+      }
+    },
+    {
+      "name": "The Bengal",
+      "domain": "thebengal.zone",
+      "url": "https://www.thebengal.zone",
+      "tag": "Onyx HQ",
+      "status": "live",
+      "src": {
+        "label": "ROSTER",
+        "url": "https://github.com/SAVAGE-ROSTER"
+      }
+    },
+    {
+      "name": "SAVAGE x BUNNY",
+      "domain": "savagexbunny.com",
+      "url": "https://savagexbunny.com",
+      "tag": "Streetwear",
+      "status": "live",
+      "src": {
+        "label": "BUNNY",
+        "url": "https://github.com/SAVAGE-BUNNY"
+      }
+    },
+    {
+      "name": "Savage City",
+      "domain": "savage.city",
+      "url": "https://savage.city",
+      "tag": "The city",
+      "status": "live",
+      "src": {
+        "label": "CITY",
+        "url": "https://github.com/SAVAGE-CITY"
+      }
+    },
+    {
+      "name": "Druids",
+      "domain": "druids.vip",
+      "url": "https://www.druids.vip",
+      "tag": "Members",
+      "status": "live",
+      "src": {
+        "label": "CITY",
+        "url": "https://github.com/SAVAGE-CITY"
+      }
+    },
+    {
+      "name": "Goalpost",
+      "domain": "goalpost.gg",
+      "url": "https://goalpost.gg",
+      "tag": "Game",
+      "status": "building",
+      "src": {
+        "label": "CITY",
+        "url": "https://github.com/SAVAGE-CITY"
+      }
+    },
+    {
+      "name": "Deep Productions",
+      "domain": "deep.productions",
+      "url": "https://deep.productions",
+      "tag": "Studio",
+      "status": "live",
+      "src": {
+        "label": "CLIENTS",
+        "url": "https://github.com/SAVAGE-CLIENTS"
+      }
+    },
+    {
+      "name": "Lukas Rossi",
+      "domain": "lukasrossionline.com",
+      "url": "https://www.lukasrossionline.com",
+      "tag": "Artist",
+      "status": "live",
+      "src": {
+        "label": "CLIENTS",
+        "url": "https://github.com/SAVAGE-CLIENTS"
+      }
+    },
+    {
+      "name": "3rd Charm",
+      "domain": "3rd-charm.vercel.app",
+      "url": "https://3rd-charm.vercel.app",
+      "tag": "Band",
+      "status": "building",
+      "src": {
+        "label": "CLIENTS",
+        "url": "https://github.com/SAVAGE-CLIENTS"
+      }
+    },
+    {
+      "name": "Applegate",
+      "domain": "applegate.vercel.app",
+      "url": "https://applegate.vercel.app",
+      "tag": "Swim label",
+      "status": "building",
+      "src": {
+        "label": "CLIENTS",
+        "url": "https://github.com/SAVAGE-CLIENTS"
+      }
+    },
+    {
+      "name": "The Machine",
+      "domain": "the operation",
+      "url": null,
+      "tag": "Cockpit",
+      "status": "private",
+      "src": {
+        "label": "STUDIO",
+        "url": "https://github.com/SAVAGE-STUDIO-INC"
+      }
+    },
+    {
+      "name": "The Suite",
+      "domain": "skin · kit · ledger",
+      "url": null,
+      "tag": "Engine",
+      "status": "private",
+      "src": {
+        "label": "SUITE",
+        "url": "https://github.com/SAVAGE-SUITE"
+      }
+    }
+  ]
+}
