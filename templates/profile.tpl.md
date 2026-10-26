@@ -9,15 +9,15 @@
 
 <div align="center">
 
-<img src="{{a}}{{hero}}" width="640" alt="{{brand}} — {{tagline}}" />
+<img src="{{hero}}" width="640" alt="{{brand}} — {{tagline}}" />
 
 <em>{{blurb}}</em>
 
-<img src="{{a}}rule.svg" width="520" alt="" />
+<img src="{{rule}}" width="520" alt="" />
 
-{{duo}}
+{{feature}}
 
-<img src="{{a}}rule.svg" width="520" alt="" />
+<img src="{{rule}}" width="520" alt="" />
 
 ### {{rosterTitle}}
 
@@ -31,7 +31,7 @@
 
 <br/>
 
-<img src="{{a}}s-diamond.png" width="56" alt="The SAVAGE crown-S mark" />
+<img src="{{mark}}" width="56" alt="{{markAlt}}" />
 
 <sub>{{footer}}</sub>
 

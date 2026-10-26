@@ -30,6 +30,42 @@
   </tr>
 </table>
 
+<br/>
+
+<p><img src="assets/title-the-house.svg" height="30" alt="THE HOUSE" /></p>
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-STUDIO-INC"><img src="assets/hero-savage-studio-viewfinder.svg" width="420" alt="SAVAGE STUDIO" /></a>
+    </td>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-ROSTER"><img src="assets/hero-savage-roster-marquee.svg" width="420" alt="SAVAGE ROSTER" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-SUITE"><img src="assets/hero-savage-suite-blueprint.svg" width="420" alt="SAVAGE SUITE" /></a>
+    </td>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-CITY"><img src="assets/hero-savage-city-skyline.svg" width="420" alt="SAVAGE CITY" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-BUNNY"><img src="assets/hero-savage-x-bunny-dropcut.svg" width="420" alt="SAVAGE BUNNY" /></a>
+    </td>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/SAVAGE-CLIENTS"><img src="assets/hero-savage-clients-letterhead.svg" width="420" alt="SAVAGE CLIENTS" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="440">
+      <a href="https://github.com/GHOST-CROWN"><img src="assets/hero-ghost-crown-terminal.svg" width="420" alt="GHOST CROWN" /></a>
+    </td>
+  </tr>
+</table>
+
 <img src="assets/rule.svg" width="520" alt="" />
 
 ### The roster
