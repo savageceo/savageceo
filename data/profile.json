@@ -1,10 +1,13 @@
 {
+  "_comment": "Layout for this profile. Shared by the house: the foil, the face, the diamond rule, the plaque. Unique to this page: hero (its own motif), duo ([] hides the portraits), wall (title + columns of build tiles; the tiles come from each item's logo in properties.json), columns (table headers), lawFrame (double|heavy|light|round|pillar|dashed|ledger|prompt), mark (swap in your own mark: drop it in assets/ and point here; markAlt is its alt text).",
   "kind": "user",
   "login": "savageceo",
   "hero": "hero-savage-ceo.svg",
   "brand": "SAVAGE CEO",
   "tagline": "BUILD · SHIP · COLLECT · REPEAT",
   "blurb": "A one-founder house of brands — agents carry the work, the work funds the machine.",
+  "mark": "s-diamond.png",
+  "markAlt": "The SAVAGE crown-S mark",
   "duo": [
     {
       "name": "THE ARCHITECT",
@@ -21,8 +24,59 @@
       "caption": "CHIEF QUALITY BENGAL · STUDIO ENFORCER"
     }
   ],
+  "houseWall": {
+    "title": {
+      "svg": "title-the-house.svg",
+      "alt": "THE HOUSE"
+    },
+    "cols": 2,
+    "tiles": [
+      {
+        "name": "SAVAGE STUDIO",
+        "login": "SAVAGE-STUDIO-INC",
+        "hero": "hero-savage-studio-viewfinder.svg"
+      },
+      {
+        "name": "SAVAGE ROSTER",
+        "login": "SAVAGE-ROSTER",
+        "hero": "hero-savage-roster-marquee.svg"
+      },
+      {
+        "name": "SAVAGE SUITE",
+        "login": "SAVAGE-SUITE",
+        "hero": "hero-savage-suite-blueprint.svg"
+      },
+      {
+        "name": "SAVAGE CITY",
+        "login": "SAVAGE-CITY",
+        "hero": "hero-savage-city-skyline.svg"
+      },
+      {
+        "name": "SAVAGE BUNNY",
+        "login": "SAVAGE-BUNNY",
+        "hero": "hero-savage-x-bunny-dropcut.svg"
+      },
+      {
+        "name": "SAVAGE CLIENTS",
+        "login": "SAVAGE-CLIENTS",
+        "hero": "hero-savage-clients-letterhead.svg"
+      },
+      {
+        "name": "GHOST CROWN",
+        "login": "GHOST-CROWN",
+        "hero": "hero-ghost-crown-terminal.svg"
+      }
+    ]
+  },
   "rosterTitle": "The roster",
-  "lastCol": "House",
+  "columns": [
+    "Property",
+    "Type",
+    "Live at",
+    "Status",
+    "House"
+  ],
+  "lawFrame": "double",
   "law": [
     "ONE HOUSE · ONE DESK · ONE AESTHETIC",
     "MAIN IS SACRED · GATES BEFORE SHIP · MERGE OR DIE"

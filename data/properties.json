@@ -1,5 +1,5 @@
 {
-  "_comment": "SOURCE OF TRUTH for the roster. Add a property = add one object to items[], then push (the Action rebuilds). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null).",
+  "_comment": "SOURCE OF TRUTH for the personal roster. Add a build = add one object to items[], then push (the Action rebuilds the README). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null; private repos carry no url), logo (the build's tile on the wall: a file under assets/. It ships as a placeholder with the name set in MBF Royal; overwrite that file with the real logo, same name, on a 5:3 canvas such as 1500x900, so the wall stays even. A PNG works too: change the extension here. Omit logo to keep a build off the wall).",
   "statuses": {
     "live": {
       "dot": "🟢",
